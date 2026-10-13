@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>교과서·참고서·단행본 사이트 통합 리뉴얼 및 수업지원자료실 유지보수·고도화 (위시켓 158957)</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="위시켓 158957 — 교과서·참고서·단행본 사이트 통합 리뉴얼 및 수업지원자료실 유지보수·고도화 제안과 프로토타입 체험 링크.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<a class="skip" href="#facts">본문 바로가기</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <span class="mark"><i aria-hidden="true"></i>위시켓 158957 · 2026-10-13</span>
+    <a class="top-cta" id="topCta" href="prototype/index.html" aria-hidden="true" tabindex="-1">프로토타입 열기 <svg class="s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="rv">교과서·참고서·단행본 사이트 통합 리뉴얼 및<br><em>수업지원자료실 유지보수·고도화</em></h1>
+      <p class="greet rv"><span class="hi">안녕하십니까.</span> 과업 A의 교과서·참고서 사이트와 단행본 사이트를 하나의 도메인으로 통합하고 C# 시스템을 Java Spring Boot로 재구축하면서, 이미 배포된 인쇄물의 QR이 정확한 새 화면으로 연결되도록 꼼꼼히 검증하겠습니다.<br class="bk"> 과업 A 인수와 과업 B 별도 계약이 확정되면 같은 팀이 별도로 운영되는 수업지원자료실을 이어서 맡고, 월별로 승인된 고도화 작업을 2028년 새 학기 전까지 마무리하도록 계획하겠습니다.</p>
+      <div class="facts" id="facts"><div class="fact rv"><span class="fl">과업 A 금액</span><b class="fv">20,000,000<small>원</small></b><span class="fs"><span class="ln">부가세 포함 22,000,000원</span><span class="ln">견적 가정에 따른 필수 범위 전체</span></span></div><div class="fact rv"><span class="fl">과업 A 기간</span><b class="fv">150<small>일</small></b><span class="fs"><span class="ln nw">2026-11-02 ~ 2027-03-31</span><span class="ln">예비 3영업일 포함</span></span></div><div class="fact rv"><span class="fl">과업 B (월)</span><b class="fv">2,000,000<small>원</small></b><span class="fs"><span class="ln">월 8 MD · 10개월</span><span class="ln nw">2027-04-01 ~ 2028-01-31</span></span></div><div class="fact rv"><span class="fl">합계</span><b class="fv">40,000,000<small>원</small></b><span class="fs"><span class="ln">부가세 포함 44,000,000원</span><span class="ln">착수금 없음</span></span></div></div>
+    </div>
+  </section>
+
+  <section class="launch" aria-labelledby="launchTitle">
+    <div class="wrap">
+      <div class="pcard rv">
+        <div class="pshot" aria-hidden="true">
+          <img src="assets/cover-prototype.jpg" alt="" width="1024" height="420" decoding="async">
+          <span class="plbl"><i></i>LIVE PROTOTYPE</span>
+        </div>
+        <div class="pbody">
+          <h2 id="launchTitle">프로토타입</h2>
+          <p>교과서·참고서·단행본 통합 사이트 · 가상 데이터 · 관리자는 체험 계정으로 로그인</p>
+          <a class="pbtn" id="protoBtn" href="prototype/index.html">프로토타입 열기 <svg class="s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="h1s">
+    <div class="wrap">
+      <div class="sh rv"><span class="kk">1</span><h2 id="h1s">프로젝트 이해</h2></div>
+      <div class="understand rv"><p class="big">현재 운영 중인 사이트는 교과서·참고서(textbook), 단행본(books), 수업지원자료실(class) 3개입니다. <b>과업 A는 교과서·참고서 사이트와 단행본 사이트 2개를 하나의 도메인으로 통합하고, C# 시스템을 Java Spring Boot로 재구축하는 작업입니다.</b> 기존 이용자와 인쇄물 QR의 연결을 유지하면서 OS(Windows → Ubuntu)와 DB 구조(N:M 개편)도 단계적으로 전환합니다. 전환 순서와 문제 발생 시 복귀 절차를 먼저 검증하겠습니다. 통합 사이트에서는 도서·작가·카테고리·자료를 한곳에서 관리하고, 교과서·참고서와 단행본을 통합 검색할 수 있도록 구성하겠습니다. <b>과업 B는 수업지원자료실을 별도 사이트로 유지하면서, 기존 React·API·서버 환경에서 유지보수·고도화를 수행하는 작업입니다.</b></p></div>
+    </div>
+  </section>
+
+  <section class="sec fold" aria-label="상세 내용">
+    <div class="wrap">
+      <p class="fold-hint rv">아래 항목은 필요하실 때 눌러서 펼쳐 보실 수 있습니다.</p>
+      <details class="acc rv" id="dh2s"><summary><span class="kk">2</span><h2 id="h2s">핵심 수행 방안</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><ol class="ways"><li class="rv"><span class="no">01</span><h3>기능 목록을 먼저 확정하는 재구축</h3><p>C# 코드를 1:1로 옮기지 않고, 화면·컨트롤러·DB 객체(테이블·프로시저·트리거)를 분석해 <b>기능 목록</b>을 만든 뒤 Spring Boot 계층 구조로 재구축합니다. 업무 규칙은 Java 계층에 모으고, 레거시와 신규 화면의 결과(목록 건수·상세 필드·검색 결과)를 자동으로 비교해 빠진 기능이 없는지 확인합니다.</p></li><li class="rv"><span class="no">02</span><h3>인쇄된 QR을 정확한 새 주소로 연결하는 301</h3><p>현행 주소는 <code>/Home/BookDetail?bookid=…</code>처럼 ID가 쿼리에 들어 있습니다. ALB는 옛 도메인 요청을 새 애플리케이션으로 넘기고, 애플리케이션이 <b>「원본 도메인 + 자료 유형 + 옛 ID → 신규 ID」 대응표</b>로 정확한 새 주소에 301 응답합니다. 과업 A의 두 사이트에 같은 ID가 있어도 서로 다른 책으로 연결됩니다. DB·접속 로그·인쇄물에서 옛 주소를 모아 <b>전수 자동 검증</b>하고 실물 QR도 직접 스캔하며, 확인되지 않은 주소는 임의의 화면으로 보내지 않고 안내와 기록으로 보완합니다.</p></li><li class="rv"><span class="no">03</span><h3>두 번에 나눈 전환과 파트너사 협업</h3><p>단행본을 먼저 전환해 절차를 다듬은 뒤 교과서·참고서를 전환합니다. <b>당사가 ALB·인증서·DNS 설정 명세와 검증을 맡고, 파트너사가 승인된 명세대로 적용</b>하는 3자 협업으로 진행합니다. 전환마다 <b>승인된 구성·복귀 조건에서 복귀 결정 후 10분 이내 서비스 경로 복귀</b>를 리허설 목표로 검증합니다. 전환 후 입력 데이터의 보존·재반영·대조와 쓰기 재개 시간은 별도로 확인합니다.</p></li></ol></div></details>
+      <details class="acc rv" id="dh3s"><summary><span class="kk">3</span><h2 id="h3s">관련 경험과 적용 방안</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="rv"><div class="tw"><table class="exp"><thead><tr><th scope="col">실적</th><th scope="col">이번 과업에 적용할 부분</th></tr></thead><tbody><tr><th scope="row"><b>★ 인앱·PG 통합 빌링 시스템</b> (2017.07 ~ 2026.07, 참여율 100%) — Java · Spring Boot · MySQL</th><td>운영 중인 결제 모듈을 4.0 구조로 재설계하면서 기존 연동처를 지원한 경험을 <b>기능 동등성 검증과 옛 주소(QR) 호환 설계</b>에 활용합니다. 7개 스토어 인앱결제와 PG 결제를 하나의 API로 통합한 경험은 과업 A 대상 두 사이트의 <b>통합 도메인·통합 검색</b> 설계에, 9년간의 운영·고도화 경험은 <b>과업 B의 연속 고도화</b>에 적용합니다</td></tr><tr><th scope="row"><b>글로벌 게임 커뮤니티 SaaS</b> (2019.11 ~ 2026.07, 참여율 100%) — 게시판 유형 엔진 · 노출 제어</th><td>운영자가 게시판 유형을 골라 만들고 상단 고정·예약 게시로 노출을 관리한 구조를 <b>게시판 유형 생성(일반형·갤러리형·파일 다운로드)과 자료 노출 제어(상단 고정 → 최신순)</b>, 과업 B의 신규 게시판 컴포넌트에 적용합니다</td></tr><tr><th scope="row"><b>대규모 추천 플랫폼 재구축·이관</b> (2025.08 ~ 2026.07, 당사 참여율 20%)</th><td>1개 서비스에 먼저 적용한 뒤 전체로 확대한 단계적 이관과 인수인계 경험을 <b>「1차 단행본 → 2차 교과서·참고서」 전환</b>에 적용합니다</td></tr></tbody></table></div><p class="memo first"><b>C#→Java 직접 전환의 공식 포트폴리오는 없으며, 위 실적은 재설계·호환성 유지·단계적 이관에 연결되는 유사 경험입니다.</b> 개발자의 C# 경험과 Spring Boot 상용 개발 경험을 바탕으로 대표 기능을 먼저 재구축하고 신구 결과를 비교해 검증하겠습니다.</p><p class="memo"><b>제출 가능한 NCP ALB·301 설정 및 외부 운영 파트너사와의 직접 협업 실적은 현재 회사 자료에서 확인되지 않습니다.</b> 확인된 AWS·GCP 보유 기술과 Nginx·HAProxy 라우팅 역량을 활용하되, NCP 직접 실적과는 구분하겠습니다. 로드밸런서의 공통 개념(리스너·호스트 규칙·타깃·헬스 체크)을 바탕으로 <b>착수 2주 안에 파트너사와 NCP의 실제 구성·제약을 점검</b>하고, 설정 명세와 리허설로 확인하겠습니다.</p></div></div></details>
+      <details class="acc rv" id="dh4s"><summary><span class="kk">4</span><h2 id="h4s">수행 조건</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><dl class="dl"><div class="rv"><dt>투입 인력 (전원 보유 인력, 재하도급 없음)</dt><dd><ul class="sub"><li><b>과업 A 80 MD (2.67 MM) · 5명</b> — PM(대표이사) 4 · 기획(책임) 10 · 백엔드(수석) 26 · 백엔드(차석) 24 · 프론트엔드(책임) 16 MD. 역할별 배정이며 전원 상시 투입을 뜻하지 않습니다.</li><li><b>과업 B 월 8 MD · 4명</b> — 백엔드 4 · 프론트엔드(React) 3 · 기획 0.5 · PM 0.5 MD. 과업 A 인수와 과업 B 별도 계약 확정을 전제로 같은 팀이 이어서 맡습니다.</li></ul></dd></div><div class="rv"><dt>과업 A 포함 범위</dt><dd>As-Is 역공학 분석과 기능 목록, Spring Boot + Thymeleaf 재구축, DB 스키마 개편(작가·카테고리·자료 N:M), 통합 검색(GET 주소 공유), 도서 연동 자료 다운로드, 독서 교육 제안 페이지, 관리자 개편(작가 마스터·노출 제어·게시판 유형), <b>QR·옛 주소 301 호환</b>, Ubuntu 전환, ALB 협업, 데이터 이관(작가 CSV 포함), 2회 단계 전환</dd></div><div class="rv"><dt>공수 배분</dt><dd>분석 8 · 설계·DB 개편 7 · 공통 기반 6 · 이용자 화면 14 · 관리자 16 · 301 호환 5 · 인프라·ALB 5 · 이관 7 · 테스트·전환 8 · PM 4 MD. 퍼블리싱을 귀사가 맡으시는 만큼, 「바꾸는 과정의 안전」(301·인프라·이관·전환 25 MD)에 공수를 집중했습니다.</dd></div><div class="rv"><dt>과업 B 범위</dt><dd>수업지원자료실의 미흡 기능 보완, 신규 게시판 컴포넌트, 자료실 화면 구조 개편, 자료 관리·검색·다운로드 편의 고도화. 기존 React·API·서버 환경을 유지하며, 월 할당 안에서 승인된 작업과 완료 목표를 정합니다.</dd></div><div class="rv"><dt>기술</dt><dd>Java 21 LTS 후보 · Spring Boot · Thymeleaf · MySQL 8 계열 · Ubuntu 24.04 LTS 이상 우선 검토 · 네이버 클라우드 ALB. 수업지원자료실과의 호환성과 파트너사 제공 환경을 확인해 G1에서 확정합니다.</dd></div></dl></div></details>
+      <details class="acc rv" id="dh5s"><summary><span class="kk">5</span><h2 id="h5s">진행 방식</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><dl class="dl"><div class="rv"><dt>단계별 확인</dt><dd>각 게이트 <b>3영업일 전에 결과물과 자체 시험 결과를 드리고, 서면 승인으로 다음 단계에 들어갑니다.</b><ul class="sub"><li><b>G1 (11-27)</b> 기능 목록·ERD·301 규칙·ALB 설정 명세 승인</li><li><b>G2 (01-08)</b> 단행본 검수</li><li><b>G3 (01-22)</b> 1차 전환 완료 — 이관 건수 대조와 301 전수 검증 결과 확인</li><li><b>G4 (03-05)</b> 교과서·참고서 검수, 2차 전환 시점 확정</li><li><b>G5 (03-26)</b> 최종 인수</li></ul></dd></div><div class="rv"><dt>인수 기준</dt><dd>승인된 <b>공개·유지 대상 옛 주소 100%가 정확한 새 주소로 301 연결</b>되고 최종 화면이 정상 응답해야 하며, 실물 QR 표본 20개 이상도 올바른 화면에 도착해야 합니다. 미확인 주소의 안내는 통과로 보지 않으며, 폐기·비공개 주소는 승인된 404/410·권한 차단으로 구분합니다. 기능 목록의 유지·개편·신규 항목 100% 구현, 승인된 이관 기준의 건수·표본 일치, <b>합의된 개편 항목을 제외한 신구 비교 차이 0건</b>도 확인합니다.</dd></div><div class="rv"><dt>소통</dt><dd>주 1회 화상 회의를 합니다. 귀사·파트너사·당사의 3자 회의는 착수 2주 안, ALB 도입 전, 각 전환 2주 전에 엽니다. 범위 변경은 변경요청서로 승인받습니다.</dd></div><div class="rv"><dt>인계</dt><dd>과업 A 인수 시 소스코드와 Git 이력, 빌드·배포 절차서, 기능 목록·ERD, 관리자 매뉴얼, <b>자동 시험 스크립트(301 전수·신구 비교·다운로드)</b>를 넘겨 드립니다. 이 스크립트는 과업 B 기간에도 배포 때마다 다시 돌려 볼 수 있습니다.</dd></div><div class="rv"><dt>과업 B 운영</dt><dd>03-15부터 인계 준비, 과업 A 인수와 과업 B 별도 계약 확정 후 04-01 시작을 제안합니다. 매월 첫 주 우선순위·예상 MD·완료 목표를 승인받고, 매주 진행 상황과 매월 말 월간 보고서(사용·이월·선사용·무상 하자 MD 구분)를 공유합니다. 기존 서비스의 장애 조사·결함 보완은 월 할당에 포함하고, 당사 결과물의 무상 하자는 별도로 처리합니다.</dd></div><div class="rv"><dt>과업 B 정산</dt><dd>월 기본료는 <b>리소스 배정에 대한 정액</b>입니다. 미사용분은 <b>최대 4 MD를 바로 다음 달에 사용하며 재이월하지 않습니다.</b> 초과 요청은 사전 승인 후 계약기간 내 다음 달 할당 선사용(최대 4 MD, <b>다음 달 기본 할당에서 차감</b>) 또는 250,000원/MD 추가 정산으로 처리합니다. 마지막 계약월에는 선사용 없이 잔여분을 승인된 점검·인수인계에 우선 배정하고, 종료 후 자동 이월·자동 환불 없이 연장·잔여분 정산을 종료 전에 서면 합의합니다.</dd></div></dl></div></details>
+      <details class="acc rv" id="dh6s"><summary><span class="kk">6</span><h2 id="h6s">공고의 요청 사항에 대한 답</h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="rv"><div class="tw"><table class="exp req"><thead><tr><th scope="col">공고 요청</th><th scope="col">답</th></tr></thead><tbody><tr><th scope="row">레거시 재구축 방식·경험</th><td>1:1 코드 이식 없이 <b>기능 목록 기반으로 재구축</b>하고 신구 결과를 자동 비교합니다. 직접 전환 공식 포트폴리오 대신 <b>C# 개발 경험과 Spring Boot·MySQL 재설계·장기 운영 유사 실적</b>을 활용합니다 (§2·§3)</td></tr><tr><th scope="row">네이버 클라우드·파트너사 협업 (가장 중요)</th><td>NCP ALB·301 직접 협업 실적은 현재 회사 자료에서 확인되지 않아 <b>보유 기술과 이번 수행 방안</b>으로 설명합니다. 착수 2주 내 연결 조건 점검 → G1 명세 승인 → 파트너사 적용·당사 검증 → 데이터 보존·신규 주소 경로를 포함한 복귀 리허설로 진행합니다 (§2-3·§3)</td></tr><tr><th scope="row">QR 301 보장·검증</th><td>원본별 ID 대응표, 전수 자동 호출, 실물 QR 스캔, 전환 후 2주간 매일 매핑 점검을 합니다. 옛 도메인·인증서 유지 조건도 인계서에 명시합니다 (§2-2)</td></tr><tr><th scope="row">2,000만원 수행 범위</th><td><b>견적 가정에 따른 필수 범위 전체를 80 MD로 수행합니다.</b> 귀사 퍼블리싱과 공통 엔진 활용으로 전환 안전성에 집중합니다. 과업 A의 두 사이트 합계 테이블 60개·프로시저와 트리거 합계 60개 이내, 도서 1천 권·자료 1천 건 이내, 파일 50 GB 이내를 가정하며, 차이가 크면 착수 1주차에 필수 기능을 유지할 대안을 먼저 협의합니다</td></tr><tr><th scope="row">과업 A·B 연속 수행</th><td><b>과업 A 인수와 과업 B 별도 계약 확정 후 같은 팀의 연속 수행</b>을 제안합니다. 월 8 MD를 4명이 나누어 맡고, 승인된 작업을 2028년 새 학기 전까지 완료하도록 계획합니다</td></tr><tr><th scope="row">일정·착수 가능일</th><td>계약 즉시 착수할 수 있습니다. 단행본을 먼저(01-19), 교과서·참고서를 나중에(03-16) 전환합니다</td></tr><tr><th scope="row">미확정 ① DB 처리 방식</th><td><b>신규 스키마 이관을 권장하되, 신규 서버 도입은 별도로 판단합니다.</b> 기존 MySQL 서버의 버전·용량·부하·권한·백업 조건이 맞으면 같은 서버에 신규 스키마를 만들어 추가 DB 서버 비용 없이 운영합니다. 서버 분리가 필요하면 관리형 MySQL·신규 서버 내 MySQL의 실비를 파트너사 견적으로 비교해 G1에서 승인받습니다. 기존 DB 공유안과의 공수 차이 <b>1~2 MD(25~50만원 환산)</b>는 기본 가정 내에서 80 MD 배정을 조정해 흡수합니다</td></tr><tr><th scope="row">미확정 ② 계약 구조</th><td><b>단계별로 나눠 계약하되, 과업 B의 월 투입량·단가·인력·연계 조건을 과업 A 계약 때 미리 합의</b>하기를 권장합니다. 과업 A 결과를 확인하고 B 별도 계약을 확정해 04-01부터 같은 팀이 이어가는 안입니다. 일괄 계약을 원하시면 A·B의 검수·정산 조건을 구분한 합의안도 제시하겠습니다</td></tr><tr><th scope="row">미확정 ③ 월 리소스 초과 정산</th><td>월 기본료는 정액이며, <b>다음 달까지만 이월(최대 4 MD)·다음 달 할당에서 차감하는 선사용(최대 4 MD)·사전 승인 추가 정산(250,000원/MD)</b> 중 해당 방식을 적용합니다. 마지막 달에는 선사용하지 않고 잔여분을 승인된 작업에 배정하며, 종료 후 연장·잔여분 정산은 종료 전 서면 합의합니다 (§5)</td></tr></tbody></table></div><p class="memo first"><b>착수 전에 함께 정할 주요 사항</b> — 신규 통합 도메인 이름, 인쇄된 QR 목록과 http/https 여부, DB 객체 규모, 관리자 화면 퍼블리싱 담당, 네이버 클라우드의 네트워크·ALB 연결 조건 (그 밖의 항목을 포함한 12건은 제안서 §3-4에 정리했습니다).</p></div></div></details>
+      <details class="acc rv" id="dh7s"><summary><span class="kk">7</span><h2 id="h7s">정리<small class="sub">한눈에 보는 주요 제안 조건</small></h2><span class="tog"><span class="t-open">펼쳐 보기</span><span class="t-close">접기</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></summary><div class="acc-b"><div class="sumtw"><table class="sumt"><thead><tr><th scope="col">항목</th><th scope="col">내용 (부가세 별도)</th></tr></thead><tbody><tr class="key"><th scope="row"><span class="sn">01</span><b>과업 A 금액</b></th><td><b>20,000,000원</b> (부가세 포함 22,000,000원) — 공고 예산과 같으며, <b>견적 가정에 따른 필수 범위 전체</b>를 수행</td></tr><tr class="key"><th scope="row"><span class="sn">02</span><b>과업 B 금액</b></th><td><b>월 2,000,000원 (월 8 MD) × 10개월 = 20,000,000원</b> · 대안 월 1,500,000원 (월 6 MD)</td></tr><tr><th scope="row"><span class="sn">03</span><b>합계</b></th><td><b>40,000,000원</b> (부가세 포함 44,000,000원)</td></tr><tr><th scope="row"><span class="sn">04</span><b>기간</b></th><td>과업 A <b>150일</b> (2026-11-02 ~ 2027-03-31, 예비 3영업일 포함) · 과업 B <b>2027-04-01 ~ 2028-01-31</b> (306일). 전체 456일을 기본안으로 두고, 공고의 약 450일 일정과 실제 착수·전환·인수일은 계약 시 협의합니다</td></tr><tr><th scope="row"><span class="sn">05</span><b>전환 일정</b></th><td><b>01-19 단행본 1차 전환 → 03-16 교과서·참고서 2차 전환 → 03-26 인수</b> (새 학기 첫 주의 접속 집중을 피해 2차 전환 시점 결정)</td></tr><tr><th scope="row"><span class="sn">06</span><b>착수 가능일</b></th><td>계약 체결 즉시</td></tr><tr><th scope="row"><span class="sn">07</span><b>대금 지급</b></th><td>착수금 없음. 과업 A는 단계 승인 후 <b>G1 20% · G3(1차 전환) 30% · G5(인수) 50%</b> / 과업 B는 월말 보고서 승인 후 월 정산</td></tr><tr><th scope="row"><span class="sn">08</span><b>귀사 수행·제외 범위</b></th><td>디자인·화면 기획·HTML/CSS 퍼블리싱(메인 UI/UX 포함)은 공고대로 귀사가 맡으십니다. 신규 UI/UX 시안 제작, 별도 검색엔진 구축, 과업 A의 스키마·검색을 수업지원자료실에 일괄 적용하는 작업은 기본 견적에 넣지 않았습니다. 네이버 클라우드의 서버·ALB·인증서·DNS 적용은 클라우드 파트너사가 맡고, 당사는 설정 명세와 검증을 맡습니다</td></tr><tr><th scope="row"><span class="sn">09</span><b>추가 비용 조건</b></th><td>범위 변경은 <b>250,000원/MD</b>로 산정해 사전 승인 후 진행합니다. 과업 B의 이월·선사용·추가 정산 조건은 <a href="#dh5s">‘5. 진행 방식’의 과업 B 정산 항목</a>에 정리했습니다. 네이버 클라우드 사용료는 귀사 명의 실비로 개발비에 포함하지 않습니다</td></tr><tr><th scope="row"><span class="sn">10</span><b>하자보수</b></th><td>과업 A <b>실제 인수일부터 6개월 무상</b> (예정대로면 2027-09-25까지). 과업 A 무상 하자보수 대상과 과업 B에서 당사가 개발·승인받은 기능의 명세 미충족 결함은 <b>과업 B 월 할당에서 차감하지 않음</b></td></tr><tr><th scope="row"><span class="sn">11</span><b>견적 유효기간</b></th><td>제출일부터 30일</td></tr></tbody></table></div></div></details>
+    </div>
+  </section>
+
+  <section class="close">
+    <div class="wrap">
+      <p class="thanks rv">검토해 주셔서 감사합니다.</p>
+      <a class="pbtn ghost rv" href="prototype/index.html">프로토타입 열기 <svg class="s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <span>교과서·참고서·단행본 사이트 통합 리뉴얼 및 수업지원자료실 유지보수·고도화</span>
+    <span>위시켓 158957 · 2026-10-13</span>
+  </div>
+</footer>
+
+<a class="float-cta" id="floatCta" href="prototype/index.html" aria-hidden="true" tabindex="-1">프로토타입 열기 <svg class="s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<script src="assets/main.js"></script>
+</body>
+</html>
